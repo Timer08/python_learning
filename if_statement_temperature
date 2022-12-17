@@ -1,0 +1,14 @@
+temp=int(input("Enter the Temperature in celsius\n"))
+
+if (temp < 0 ):
+        print("Its frezzing cold")
+elif ((temp >=1) and (temp <=10)):
+        print("its ice cold")
+elif ((temp >=11) and (temp <=20)):
+        print("its cold")
+elif ((temp >=21) and (temp <=30)):
+        print("its a warm day")
+elif ((temp >=31) and (temp <=35)):
+        print("its a host day")
+else:
+        print("Super hot day")
