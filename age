@@ -1,0 +1,3 @@
+year=int(input("Enter the year\n"))
+age=2022-year
+print("Your age is " + str(age))
