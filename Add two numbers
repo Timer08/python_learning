@@ -1,0 +1,12 @@
+#add two numbers from to digit numbers entered as input
+
+number=input("Enter the number\n")
+f_number=number[0]
+s_number=number[1]
+
+#type casting
+ff_number=int(f_number)
+ss_number=int(s_number)
+
+addition=(ff_number+ss_number)
+print(addition
