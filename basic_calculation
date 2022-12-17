@@ -1,0 +1,21 @@
+#basic calculation 
+
+#user input and converting the data type from string to int 
+
+f_number=input("Enter the first number \n")
+c_f_number=int(f_number)
+s_number=input("Enter the second number \n")
+c_s_number=int(s_number)
+print("*************************************")
+print("First number is " + f_number)
+print("Second number is " + s_number)
+print()
+print("Lets do calculation")
+
+#calucation and in print function, the int is converted back to string. 
+addition=(c_f_number+c_s_number)
+print("Additon of " + f_number + " and " + s_number + " is " + str(addition))
+subtraction=(c_f_number-c_s_number)
+print("Additon of " + f_number + " and " + s_number + " is " + str(subtraction))
+multiply=(c_f_number*c_s_number)
+print("Additon of " + f_number + " and " + s_number + " is " + str(multiply))
