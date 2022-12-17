@@ -1,0 +1,13 @@
+#allows the user to input the birth year and base upon that it calculate the age
+year=int(input("Enter the year\n"))
+age=2022-year
+print("Your age is " + str(age))
+
+----------------------------------------------------------------------------
+
+#allows the user to input his/her weight in lbs and result in kg 
+
+lbs=float(input("Enter the weight in lbs\n"))
+cal=lbs/2.205
+print("Your weight in kgs is: " + str(cal))
+
