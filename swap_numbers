@@ -1,0 +1,23 @@
+#Swapping the numbers 
+
+#user input for numbers
+f_number=input("Enter the first number\n")
+s_number=input("Enter the Second number\n")
+print()
+
+#print the numbers
+print("First number is " + f_number)
+print("Second number is " + s_number)
+print("********************************")
+
+print("*****Lets do Swapping*******")
+
+#third variable defined 'swap'
+swap=f_number
+f_number=s_number
+
+#numbers swap 
+  
+print("First number is " + s_number)
+print("Second number is " + swap)
+
