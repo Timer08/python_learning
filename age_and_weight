@@ -5,9 +5,22 @@ print("Your age is " + str(age))
 
 ----------------------------------------------------------------------------
 
+weight=int(input("Enter your weight\n"))
+
+if weight > 0:
+        new=input("Is the weight in kg or lbs\n")
+        if new == "kg":
+                kg=weight*2.205
+                print("Your weight in lbs is: " + str(kg))
+        else:
+                lbs=weight/2.205
+                print("Your weight in kg is: " + str(lbs))
+
+----------------------------------------------------------------------------
+
 #allows the user to input his/her weight in lbs and result in kg 
 
 lbs=float(input("Enter the weight in lbs\n"))
 cal=lbs/2.205
 print("Your weight in kgs is: " + str(cal))
-
+----------------------------------------------------------------------------
