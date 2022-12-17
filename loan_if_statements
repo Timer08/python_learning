@@ -1,0 +1,13 @@
+credit=int(input("Enter the credit score\n"))
+print("******cost of house is 10 lakhs inr********")
+if ((credit>=800)):
+        print("excellent credit score")
+        down_payment=(1000000*10)/100
+        print("Down payment is " + str(down_payment))
+elif ((credit<=799) and (credit>=700)):
+        print("Good credit score")
+        down_payment=(1000000*20)/100
+        print("Down payment is " + str(down_payment))
+else:
+        print("Bad credit score")
+        print("Apply after 3 months")
