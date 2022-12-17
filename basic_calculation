@@ -1,6 +1,6 @@
 #basic calculation 
 
-#user input and converting the data type from string to int 
+#user input and converting the data type from string to int i.e. type casting
 
 f_number=input("Enter the first number \n")
 c_f_number=int(f_number)
@@ -12,7 +12,7 @@ print("Second number is " + s_number)
 print()
 print("Lets do calculation")
 
-#calucation and in print function, the int is converted back to string. 
+#calucation and in print function, the int is converted back to string. i.e. type casting
 addition=(c_f_number+c_s_number)
 print("Additon of " + f_number + " and " + s_number + " is " + str(addition))
 subtraction=(c_f_number-c_s_number)
